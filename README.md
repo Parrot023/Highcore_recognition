@@ -9,6 +9,13 @@ I will try to be building a python program to detect the current game played on 
 
 ## LOG
 
+### Saturday October 19th 2019
+- added model for:
+    - Frogger
+    - Donkey Kong
+    - Amidar
+- creted tflite model for rasperry pi
+
 ### Friday October 18th 2019
 - i have now trained a neural network using python and is able to classify frogger and donkey kon with an acurracy of 100% during training
 
