@@ -9,6 +9,23 @@ I will try to be building a python program to detect the current game played on 
 
 ## LOG
 
+### Friday November 1st 2019
+- **Predictions are now more accurate** thanks to noise when creating the training data. this reduces the perfectness of the images. making it easier to predict real life images
+- **New files**
+    - load_frames_from_video.py
+        - Extracts frame from a gameplay video of a given game and apllies noise, rotation and cropping. to make it less perfect
+    - create_training_data.py
+        - Takes the outputted images from load_frames_from_video and turns them into training sets (pickle files)
+    - create_model.py
+        - Takes the training data from create_training_data and trains a fully connected neural network
+    - test_model_with_webcam.py
+        - Opens the webcam and makes prediction based on the frames
+- **New folders**
+    - models
+    - training_sets
+    - files_not_in_use
+        - for files not in use
+
 ### Saturday October 19th 2019
 - added model for:
     - Frogger
